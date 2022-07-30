@@ -1,16 +1,12 @@
 const lista = ["clara", 27, false ];
+
 const birthday = new Date(1995,3,24);
 
-console.log(birthday);
-
+const libroFavorito = {
+    titulo: "El Principito",
+    autor: "Antoine de Saint-Exupéry",
+    fecha: 1943,
+    url: "https://es.wikipedia.org/wiki/El_principito"
+};
 lista.push(birthday);
-
-console.log(lista);
-
-
-
-
-
-
-
-
+lista.push(libroFavorito);
